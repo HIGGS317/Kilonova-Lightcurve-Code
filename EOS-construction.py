@@ -54,7 +54,7 @@ if __name__ == '__main__':
                             # energy = energy_density(n,k,gamma)
                             # pressure = calc_pressure(n,k,gamma)
                             # c2 = sound_speed(pressure[1:],pressure[:-1],energy[1:],energy[:-1])
-                            f.write(f'{n1[i]},{energy[i]},{pressure[i]},{c2[i]}  \n ' )
+                            f.write(f'{n1[i]}\t{energy[i]}\t{pressure[i]}\t{c2[i]}  \n ' )
         
     # with open(f'Polytropic-Eos-gamma_new{gamma}.dat', 'a') as f:
     #     for i in range(len(n1)):
